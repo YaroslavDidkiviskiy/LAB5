@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Магазин ноутбуків</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>💻 Магазин ноутбуків</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Товари</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="products">
+    <h2>Наші ноутбуки</h2>
+    <div class="product-list">
+
+      <article class="product-card">
+        <div class="emoji">💻</div>
+        <h3>ASUS VivoBook</h3>
+        <ul class="features">
+          <li>Intel Core i5</li>
+          <li>8GB RAM</li>
+          <li>256GB SSD</li>
+          <li>14" Full HD</li>
+        </ul>
+        <p class="price">₴24 999</p>
+        <button onclick="addToCart('ASUS VivoBook')">Купити</button>
+      </article>
+
+      <article class="product-card">
+        <div class="emoji">🖥️</div>
+        <h3>Lenovo IdeaPad</h3>
+        <ul class="features">
+          <li>Intel Core i3</li>
+          <li>8GB RAM</li>
+          <li>512GB SSD</li>
+          <li>15.6" Full HD</li>
+        </ul>
+        <p class="price">₴19 999</p>
+        <button onclick="addToCart('Lenovo IdeaPad')">Купити</button>
+      </article>
+
+      <article class="product-card">
+        <div class="emoji">🧮</div>
+        <h3>HP Pavilion</h3>
+        <ul class="features">
+          <li>AMD Ryzen 5</li>
+          <li>16GB RAM</li>
+          <li>512GB SSD</li>
+          <li>15.6" IPS</li>
+        </ul>
+        <p class="price">₴27 499</p>
+        <button onclick="addToCart('HP Pavilion')">Купити</button>
+      </article>
+
+      <article class="product-card">
+        <div class="emoji">📱</div>
+        <h3>MacBook Air</h3>
+        <ul class="features">
+          <li>Apple M2</li>
+          <li>8GB RAM</li>
+          <li>256GB SSD</li>
+          <li>13.6" Retina</li>
+        </ul>
+        <p class="price">₴42 999</p>
+        <button onclick="addToCart('MacBook Air')">Купити</button>
+      </article>
+
+      <article class="product-card">
+        <div class="emoji">🖥️</div>
+        <h3>Acer Aspire 5</h3>
+        <ul class="features">
+          <li>Intel Core i7</li>
+          <li>16GB RAM</li>
+          <li>1TB SSD</li>
+          <li>17.3" Full HD</li>
+        </ul>
+        <p class="price">₴30 999</p>
+        <button onclick="addToCart('Acer Aspire 5')">Купити</button>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Магазин ноутбуків. Усі права захищені.</p>
+  </div>
+</footer>
+
+</body>
+</html>
